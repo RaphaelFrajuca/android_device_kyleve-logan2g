@@ -1,0 +1,4 @@
+allow init init:process execmem;
+allow init init:capability sys_module;
+allow init kernel:security setenforce;
+
