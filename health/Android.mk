@@ -16,7 +16,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES := healthd-logan2g.cpp
-LOCAL_MODULE := libhealthd.logan2g
+LOCAL_SRC_FILES := healthd-hawaii.cpp
+LOCAL_MODULE := libhealthd-kyleve.hawaii
 LOCAL_C_INCLUDES := system/core/healthd
 include $(BUILD_STATIC_LIBRARY)
