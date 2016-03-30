@@ -21,6 +21,15 @@
 | Camera                  | 2 MP                   |
 | Release Date            | October 2013           |
 
+
+## How to use
+Put this files in cm12.1/device/samsung/kyleve
+After plug your device in debug mode and run extract-files.sh
+Go to cm2.1 base source
+Use this commands:
+. build/envsetup.sh
+brunch kyleve
+
 ## Device Picture 
 
 ![Sasmung Galaxy Star Pro|Plus] (http://images.fonearena.com/blog/wp-content/uploads/2013/12/samsung-galaxy-star-pro-unboxing-7.jpg "Sasmung Galaxy Star Pro|Plus")
