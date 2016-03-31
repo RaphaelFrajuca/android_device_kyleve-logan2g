@@ -10,15 +10,15 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 DEVICE_PACKAGE_OVERLAYS += device/samsung/kyleve/overlay
 
 # Init files
-PRODUCT_PACKAGES += \
-	fstab.hawaii_ss_kyleve \
-	init.rc \
-	init.hawaii_ss_kyleve.rc \
-	init.bcm2166x.usb.rc \
-	init.log.rc \
-	charger \
-	ueventd.hawaii_ss_kyleve.rc \
-        lpm.rc
+PRODUCT_COPY_FILES += \
+	device/samsung/kyleve/rootdir/fstab.hawaii_ss_kyleve:root/fstab.hawaii_ss_kyleve \
+	device/samsung/kyleve/rootdir/init.rc:root/init.rc \
+	device/samsung/kyleve/rootdir/init.hawaii_ss_kyleve.rc:root/init.hawaii_ss_kyleve.rc \
+	device/samsung/kyleve/rootdir/init.bcm2166x.usb.rc:root/init.bcm2166x.usb.rc \
+	device/samsung/kyleve/rootdir/init.log.rc:root/init.log.rc \
+	device/samsung/kyleve/rootdir/lpm.rc:root/lpm.rc \
+	device/samsung/kyleve/rootdir/charger:root/charger \
+	device/samsung/kyleve/rootdir/ueventd.hawaii_ss_kyleve.rc:root/ueventd.hawaii_ss_kyleve.rc
 	
 PRODUCT_COPY_FILES += \
 	device/samsung/kyleve/configs/media_profiles.xml:system/etc/media_profiles.xml \
