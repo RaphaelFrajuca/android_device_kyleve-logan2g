@@ -35,7 +35,7 @@ for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
     echo "    $OUTDIR/proprietary/$FILE:system/$FILE$LINEEND" >> $MAKEFILE
 done
 
-(cat << EOF) > ../../../$OUTDIR/$DEVICE-vendor.mk
+(cat << EOF) > ../../../$OUTDIR/$DEVICE-common-vendor.mk
 # Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
