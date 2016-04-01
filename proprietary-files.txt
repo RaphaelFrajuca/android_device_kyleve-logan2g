@@ -1,5 +1,6 @@
 # bin
 bin/bcm4330.hcd
+bin/BCM4330B1_002.001.003.0967.1173.hcd
 bin/atrace
 bin/immvibed
 bin/at_distributor
@@ -77,7 +78,9 @@ cameradata/datapattern_420sp.yuv
 cameradata/datapattern_front_420sp.yuv
 
 # bluetooth
-etc/bluetooth/main.conf
+etc/bluetooth/auto_pair_devlist.conf
+etc/bluetooth/bt_did.conf
+etc/bluetooth/bt_stack.conf
 
 # wifi
 etc/wifi/bcmdhd_apsta.bin
@@ -87,6 +90,8 @@ etc/wifi/bcmdhd_sta.bin
 etc/wifi/nvram_mfg.txt
 etc/wifi/nvram_net.txt
 etc/wifi/wpa_supplicant.conf
+etc/wifi/wpa_supplicant_overlay.conf
+etc/wifi/p2p_supplicant_overlay.conf
 
 # audio
 etc/Volume.db
@@ -117,9 +122,9 @@ media/battery_error.qmg
 media/chargingwarning.qmg
 
 # egl
-lib/egl/libEGL_mali.so
-lib/egl/libGLESv1_CM_mali.so
-lib/egl/libGLESv2_mali.so
+lib/egl/egl.cfg
+lib/egl/libGLESv1_CM_android.so
+lib/egl/libGLES_hawaii.so
 
 # audio
 etc/audio/LVVEFS_Rx_Configuration.txt
@@ -160,12 +165,12 @@ etc/audio_VR/Tx_ControlParams_VR_WIRED_HEADPHONE_WIDEBAND.txt
 etc/audio_VR/Tx_ControlParams_VR_WIRED_HEADSET_WIDEBAND.txt
 
 # hw
-lib/hw/audio_policy.sc6820i.so
-lib/hw/audio.primary.sc6820i.so
-lib/hw/camera.sc6820i.so
-lib/hw/gralloc.sc6820i.so
-lib/hw/hwcomposer.sc6820i.so
-lib/hw/sensors.sc6820i.so
+lib/hw/audio_policy.hawaii.so
+lib/hw/audio.primary.hawaii.so
+lib/hw/camera.hawaii.so
+lib/hw/gralloc.hawaii.so
+lib/hw/hwcomposer.hawaii.so
+lib/hw/sensors.hawaii.so
 
 # lib
 lib/libisp.so
