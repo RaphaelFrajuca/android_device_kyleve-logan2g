@@ -23,12 +23,12 @@
 
 
 ## How to use
-# Put this files in cm12.1/device/samsung/kyleve
-# After plug your device in debug mode and run extract-files.sh
-# Go to cm2.1 base source
-# Use this commands:
-# . build/envsetup.sh
-# brunch kyleve
+### Put this files in cm12.1/device/samsung/kyleve
+### After plug your device in debug mode and run extract-files.sh
+### Go to cm2.1 base source
+### Use this commands:
+### . build/envsetup.sh
+### brunch kyleve
 
 ## Device Picture 
 
